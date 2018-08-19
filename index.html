@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reddit API</title>
+  </head>
+  <body>
+	<h1>Weather App</h1>
+	<input id="search-box" type="text" placeholder="Enter a place name..">
+	<input type="radio" id="0" name="temp" value="0">Celcius<br>
+	<input type="radio" id="1" name="temp" value="1">Farenheit<br>
+	<button id="submit">Submit</button>
+	<h2 id="city-title" style="display:none"></h2>
+	<h3 id="city-pop" style="display:none"></h3>
+	<h4 id="date" style="display:none"></h4>
+	<button type="submit" id="day1" style="display:none">Day 1</button>
+	<button type="submit" id="day2" style="display:none">Day 2</button>
+	<button type="submit" id="day3" style="display:none">Day 3</button>
+	<button type="submit" id="day4" style="display:none">Day 4</button>
+	<button type="submit" id="day5" style="display:none">Day 5</button>
+	<table id="data" style="display:none">
+		<tr id="am12">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+		<tr id="am03">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+		<tr id="am06">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+		<tr id="am09">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+		<tr id="pm12">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+		<tr id="pm03">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+		<tr id="pm06">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+		<tr id="pm09">
+			<td class="time"></td>
+			<td class="temp"></td>
+			<td class="humid"></td>
+			<td class="desc"></td>
+			<td class="img"><img></td>
+		</tr>
+	</table>
+	<script src="script.js"></script>
+  </body>
+</html>
